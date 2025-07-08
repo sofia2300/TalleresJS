@@ -18,3 +18,7 @@ let promedioVentas = totalVentas / 3;
 console.log(`Total de ventas: $${totalVentas.toFixed(2)}`);
 console.log(`Promedio de venta por producto: $${promedioVentas.toFixed(2)}`);
 
+
+
+//
+
