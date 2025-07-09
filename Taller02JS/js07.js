@@ -1,11 +1,21 @@
 // Ejercico 07
 
+/*Analizar estos valores: 42, "123", NaN, 3.14, "texto", Infinity, 0
+
+Para cada valor, determinar si:
+• Es de tipo número
+• Es un número finito
+• Es un número entero*/
+
 let valor1 = 42;
 let valor2 = "123";
 let valor3 = NaN;
 let valor4 = "texto";
 let valor5 = Infinity;
 let valor6 = 0;
+
+
+
 
 console.log(`Analizando: ${valor1}`);
 console.log(`Es un número: ${typeof valor1 === "number"}`);
