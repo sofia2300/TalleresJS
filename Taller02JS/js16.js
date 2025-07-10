@@ -11,3 +11,7 @@
 • {}
 Para cada uno, mostrar si es verdadero o falso usando el operador ! */
 
+
+let valores = [0, `""`, `0`, `"false"`, null, undefined, `[]`, `{}`  ]
+
+for (let i= 0)

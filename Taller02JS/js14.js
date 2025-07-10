@@ -19,3 +19,4 @@ let repetir = "¡OFERTA!".repeat(3);
 
 console.log(`${facturaFormateada} \n ${productoFormateado} \n ${usuarioFormateado} \n ${separador} \n ${repetir}`);
 
+// padStart = sirve para agregar "0" antes del string que esté

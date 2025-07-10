@@ -9,3 +9,5 @@ let ultimas8 = nombreCompleto.slice(-8);
 let soloPerez = nombreCompleto.substring(13, 18) 
 
 console.log(`primerNombre ${primerNombre}`);
+
+// DUDA EN ESTE EJERCICIO 

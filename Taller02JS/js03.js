@@ -1,4 +1,7 @@
+// Ejercicio 03 
+/* Generar 5 números aleatorios para un boleto de lotería. Cada número debe estar entre 1 y 50 (inclusive).
 
+Mostrar los números generados en el formato: "Números de lotería: 15, 32, 8, 41, 27" */
 
 let numero1 = Math.floor(Math.random() * 50) + 1; 
 let numero2 = Math.floor(Math.random() * 50) + 2; // Genera un número aleatorio entre 1 y 50

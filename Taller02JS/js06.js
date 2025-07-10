@@ -1,3 +1,13 @@
+// Ejercicio 06
+
+/* Un círculo tiene un radio de 7.5 metros.
+Calcular su área y perímetro.
+
+Fórmulas:
+• Área = π × radio²
+• Perímetro = 2 × π × radio
+
+Mostrar los resultados con 2 decimales. */
 
 let circuloRadio = 7.5;
 let areaCirculo = Math.PI * Math.pow(circuloRadio, 2); // Area = PI * r^2

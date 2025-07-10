@@ -16,7 +16,7 @@ let productos = listaCompras.split(","); // split convierte el texto en un array
 console.log(`Lista original: ${listaCompras}`);
 console.log(`Numero de productos: ${productos.length}`);
 console.log("productos:");
-console.log(`1. ${productos[0]}`);
+console.log(`1. ${productos[0]}`); // DUDA EN ESTA PARTE 
 console.log(`2. ${productos[1]}`);
 console.log(`3. ${productos[2]}`);
 console.log(`4. ${productos[3]}`);
