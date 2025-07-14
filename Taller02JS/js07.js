@@ -7,16 +7,30 @@ Para cada valor, determinar si:
 • Es un número finito
 • Es un número entero*/
 
-let valores = [42, "123", NaN, 3.14, "texto", Infinity, 0];
+let valores = {
+    valor1: 42,
+    valor2: "123",
+    valor3: NaN,
+    valor4: 3.14,
+    valor5: "texto",
+    valor6: Infinity,
+    valor7: 0
+}
 
-for (let i = 0; i < valores.length; i++) {
-    let valor = valores[i];
-    console.log(`Analizando: ${valor}`);
+for (let clave in valores) {
+    let valor= valores[clave];
+    console.log(`Analizando ${clave}: ${valor}`);
     console.log(`Es un número: ${typeof valor === "number"}`);
     console.log(`Es finito: ${Number.isFinite(valor)}`);
     console.log(`Es entero: ${Number.isInteger(valor)}`);
-    console.log('-----------------------------');
 }
+
+
+
+
+
+
+
 
 
 
